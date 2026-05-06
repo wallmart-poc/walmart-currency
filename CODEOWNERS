@@ -1,0 +1,4 @@
+# Currency conversion gRPC service.
+# Cross-cutting utility used by frontend and checkout; lives with the
+# shared platform team rather than a single product domain.
+*   @wallmart-poc/platform-sre
