@@ -1,0 +1,17 @@
+{
+  "identifier": "walmart-currency",
+  "title": "Currency Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "medium",
+    "slack_channel": "#platform-sre",
+    "type": "grpc",
+    "tier": "platform",
+    "language": "Node.js",
+    "region": ["us-east-1", "us-west-2", "eu-west-1"]
+  },
+  "relations": {
+    "depends_on": []
+  }
+}
